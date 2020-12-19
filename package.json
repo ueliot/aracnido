@@ -4,6 +4,7 @@
   "description": "scrap 1",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ueliot/aracnido/issues"
   },
-  "homepage": "https://github.com/ueliot/aracnido#readme"
+  "homepage": "https://github.com/ueliot/aracnido#readme",
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  }
 }
